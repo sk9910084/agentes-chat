@@ -12704,13 +12704,44 @@
   },
   "connectors": {
     "title": "コネクタ",
-    "add": "コネクタを追加",
-    "mcp": {
-      "title": "MCP",
-      "add": "MCPを追加",
-      "list": "接続済みのMCPサーバー",
-      "none": "アドレスで接続したMCPサーバーがここに表示されます。"
+    "store": {
+      "featured": "注目",
+      "suggested": "おすすめ",
+      "seeAll": "すべて見る",
+      "connect": "接続",
+      "connected": "接続済み",
+      "browse": "コネクタを見る",
+      "notListed": "ストアにないサービスがありますか？",
+      "howLabel": "接続方法",
+      "whoAll": "すべてのエージェント",
+      "whoChoose": "あとで選べます",
+      "asksLabel": "承認",
+      "asksSensitive": "重要な操作はあなたに確認します",
+      "afterTitle": "接続したあと",
+      "agents_other": "{{count}}体のエージェント",
+      "whoEvery_other": "{{count}}体すべてのエージェントが使います。",
+      "whoSome_other": "{{names}}。ほかの{{count}}体のエージェントは使いません。",
+      "change": "変更",
+      "see": "見る",
+      "account": "アカウント",
+      "toolsText": "エージェントがこれでできることと、あなたに確認すること。",
+      "addressesText": "エージェントがこのメールボックスでやり取りできる相手。",
+      "bandTitle_other": "接続できるサービス {{count}} 件",
+      "bandText": "{{names}} など。",
+      "appMissing": "このサーバーのアプリはまだ作成されていません",
+      "appEvents": "アプリにイベントが足りません",
+      "appLine": "このサーバーのアプリ",
+      "eventsLine": "イベント"
     },
+    "howShort": {
+      "oneClick": "ワンクリック",
+      "oauthOrKey": "ワンクリックまたはAPIキー",
+      "key": "APIキー",
+      "appPassword": "アプリパスワード",
+      "addressPassword": "アドレスとパスワード",
+      "composio": "Composio経由"
+    },
+    "add": "コネクタを追加",
     "personal": {
       "note": "これらの接続を開けるのはあなただけです。エージェントは、あなたが頼んだときだけ使います。",
       "noteOne": "この接続を開けるのはあなただけで、エージェントはあなたが頼んだときだけ使います。",
@@ -12742,9 +12773,6 @@
       "moveText": "ワークスペースの全員に見えます。どのエージェントが使うかはエージェントを管理する人が選び、エージェントのオーナーは自分のエージェントでオフにできます。接続済みのすべてのアプリを使うエージェントは、すぐに使えるようになります。",
       "moved": "{{name}}はチームのものになりました。"
     },
-    "addTitle": "コネクタを追加",
-    "catalogText": "{{org}}で一度接続すれば、各エージェントが何を使えるかを選べます。",
-    "catalog": "利用できるコネクタ",
     "categories": "カテゴリ",
     "category": {
       "all": "すべて",
@@ -12765,8 +12793,6 @@
     "connectName": "{{name}}を接続",
     "reconnectName": "{{name}}を再接続",
     "addAccountName": "{{name}}の別アカウントを追加",
-    "other": "見つかりませんか？",
-    "otherText": "アドレスで、どのサービスでも接続できます。",
     "search": "コネクタを検索",
     "searchPlaceholder": "名前や機能で検索",
     "empty": "「{{q}}」に一致するコネクタはありません",
@@ -12780,25 +12806,15 @@
     "more": "その他のサービス",
     "tileConnected": "{{name}}、接続済み",
     "tileSoon": "{{name}}、近日公開",
-    "otherTitle": "別のサービス",
-    "otherDetail": "エージェント向けの接続を提供しているサービスなら、アドレス（https://で始まるもの）で接続できます。",
-    "otherSteps": {
-      "1": "アドレスを貼り付けて、サービスのページで承認します",
-      "2": "各ツールが何をするかは、こちらで整理します",
-      "ask": "重要な操作は常にあなたの承認を求めます"
-    },
     "otherConnect": "アドレスで接続",
     "detail": {
-      "close": "詳細を閉じる",
       "can": "エージェントができること",
       "afterText": "あなたが選ぶまで、どのエージェントも使いません。",
       "allText": "接続すると、すべてのエージェントが使えます。あとから調整できます。",
       "addAccount": "別のアカウントを追加",
       "accountsText": "アカウントごとに、エージェントとレベルが分かれます。",
       "reconnect": "再接続",
-      "replaceText": "現在のログインを置き換えます。使う人はそのままです。",
-      "connected": "接続済み",
-      "how": "しくみ"
+      "replaceText": "現在のログインを置き換えます。使う人はそのままです。"
     },
     "how": {
       "oneClick": "ワンクリック: サービスのページで承認します",
@@ -13171,7 +13187,6 @@
         "ask": "アップロードごとに必ずあなたの承認を求めます"
       }
     },
-    "connectedList": "接続済み",
     "connected": "接続済み",
     "connectedAs": "{{account}}として接続済み",
     "reconnectAdds": "{{name}}を再接続すると、エージェントは{{what}}こともできます。",

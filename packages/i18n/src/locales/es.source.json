@@ -31953,20 +31953,119 @@
   "connectors.title": {
     "value": "Connectors"
   },
+  "connectors.store.featured": {
+    "value": "Featured"
+  },
+  "connectors.store.suggested": {
+    "value": "Suggested"
+  },
+  "connectors.store.seeAll": {
+    "value": "See all"
+  },
+  "connectors.store.connect": {
+    "value": "Connect"
+  },
+  "connectors.store.connected": {
+    "value": "Connected"
+  },
+  "connectors.store.browse": {
+    "value": "Browse connectors"
+  },
+  "connectors.store.notListed": {
+    "value": "Is a service missing from the store?"
+  },
+  "connectors.store.howLabel": {
+    "value": "How it connects"
+  },
+  "connectors.store.whoAll": {
+    "value": "Every agent"
+  },
+  "connectors.store.whoChoose": {
+    "value": "You choose later"
+  },
+  "connectors.store.asksLabel": {
+    "value": "Approval"
+  },
+  "connectors.store.asksSensitive": {
+    "value": "Sensitive actions ask you"
+  },
+  "connectors.store.afterTitle": {
+    "value": "After connecting"
+  },
+  "connectors.store.agents": {
+    "value": {
+      "one": "{{count}} agent",
+      "other": "{{count}} agents"
+    }
+  },
+  "connectors.store.whoEvery": {
+    "value": {
+      "one": "Your agent uses it.",
+      "other": "All {{count}} agents use it."
+    }
+  },
+  "connectors.store.whoSome": {
+    "value": {
+      "one": "{{names}}. The other agent doesn't use it.",
+      "other": "{{names}}. The other {{count}} agents don't use it."
+    }
+  },
+  "connectors.store.change": {
+    "value": "Change"
+  },
+  "connectors.store.see": {
+    "value": "View"
+  },
+  "connectors.store.account": {
+    "value": "Account"
+  },
+  "connectors.store.toolsText": {
+    "value": "What agents can do with it, and what asks you."
+  },
+  "connectors.store.addressesText": {
+    "value": "Who agents can talk to through this mailbox."
+  },
+  "connectors.store.bandTitle": {
+    "value": {
+      "one": "{{count}} service to connect",
+      "other": "{{count}} services to connect"
+    }
+  },
+  "connectors.store.bandText": {
+    "value": "{{names}} and more."
+  },
+  "connectors.store.appMissing": {
+    "value": "This server's app isn't created yet"
+  },
+  "connectors.store.appEvents": {
+    "value": "The app is missing events"
+  },
+  "connectors.store.appLine": {
+    "value": "This server's app"
+  },
+  "connectors.store.eventsLine": {
+    "value": "Events"
+  },
+  "connectors.howShort.oneClick": {
+    "value": "One click"
+  },
+  "connectors.howShort.oauthOrKey": {
+    "value": "One click or an API key"
+  },
+  "connectors.howShort.key": {
+    "value": "API key"
+  },
+  "connectors.howShort.appPassword": {
+    "value": "App password"
+  },
+  "connectors.howShort.addressPassword": {
+    "value": "Address and password"
+  },
+  "connectors.howShort.composio": {
+    "value": "Through Composio"
+  },
   "connectors.add": {
     "value": "Add connector"
-  },
-  "connectors.mcp.title": {
-    "value": "MCPs"
-  },
-  "connectors.mcp.add": {
-    "value": "Add MCP"
-  },
-  "connectors.mcp.list": {
-    "value": "Connected MCP servers"
-  },
-  "connectors.mcp.none": {
-    "value": "MCP servers you connect by their address show up here."
   },
   "connectors.personal.note": {
     "value": "Only you open these connections. Your agents use them only when you ask."
@@ -32055,15 +32154,6 @@
   "connectors.personal.moved": {
     "value": "{{name}} now belongs to the team."
   },
-  "connectors.addTitle": {
-    "value": "Add connector"
-  },
-  "connectors.catalogText": {
-    "value": "Connect once for {{org}}. Then choose what each agent can use."
-  },
-  "connectors.catalog": {
-    "value": "Available connectors"
-  },
   "connectors.categories": {
     "value": "Categories"
   },
@@ -32118,12 +32208,6 @@
   "connectors.addAccountName": {
     "value": "Add another {{name}} account"
   },
-  "connectors.other": {
-    "value": "Can't find it?"
-  },
-  "connectors.otherText": {
-    "value": "Connect any service by its address."
-  },
   "connectors.search": {
     "value": "Search connectors"
   },
@@ -32163,26 +32247,8 @@
   "connectors.tileSoon": {
     "value": "{{name}}, soon"
   },
-  "connectors.otherTitle": {
-    "value": "Another service"
-  },
-  "connectors.otherDetail": {
-    "value": "Any service that offers a connection for agents, by its address (it starts with https://)."
-  },
-  "connectors.otherSteps.1": {
-    "value": "You paste the address and authorize on the service's page"
-  },
-  "connectors.otherSteps.2": {
-    "value": "We sort out what each of its tools does"
-  },
-  "connectors.otherSteps.ask": {
-    "value": "Anything sensitive always asks for your approval"
-  },
   "connectors.otherConnect": {
     "value": "Connect by address"
-  },
-  "connectors.detail.close": {
-    "value": "Close details"
   },
   "connectors.detail.can": {
     "value": "What agents will be able to do"
@@ -32204,12 +32270,6 @@
   },
   "connectors.detail.replaceText": {
     "value": "Replaces the current sign-in. Who uses it stays the same."
-  },
-  "connectors.detail.connected": {
-    "value": "Already connected"
-  },
-  "connectors.detail.how": {
-    "value": "How it works"
   },
   "connectors.how.oneClick": {
     "value": "One click: you authorize on the service's page"
@@ -32783,9 +32843,6 @@
   },
   "connectors.can.tiktok.ask": {
     "value": "Each upload always asks for your approval"
-  },
-  "connectors.connectedList": {
-    "value": "Connected"
   },
   "connectors.connected": {
     "value": "Connected"

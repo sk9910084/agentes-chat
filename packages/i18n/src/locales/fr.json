@@ -13752,13 +13752,52 @@
   },
   "connectors": {
     "title": "Connecteurs",
-    "add": "Ajouter un connecteur",
-    "mcp": {
-      "title": "MCP",
-      "add": "Ajouter un MCP",
-      "list": "Serveurs MCP connectés",
-      "none": "Les serveurs MCP que vous connectez par leur adresse s'affichent ici."
+    "store": {
+      "featured": "À la une",
+      "suggested": "Suggéré",
+      "seeAll": "Tout voir",
+      "connect": "Connecter",
+      "connected": "Connecté",
+      "browse": "Parcourir les connecteurs",
+      "notListed": "Un service manque dans la boutique ?",
+      "howLabel": "Comment il se connecte",
+      "whoAll": "Tous les agents",
+      "whoChoose": "Vous choisirez ensuite",
+      "asksLabel": "Approbation",
+      "asksSensitive": "Le sensible vous demande",
+      "afterTitle": "Après la connexion",
+      "agents_one": "{{count}} agent",
+      "agents_many": "{{count}} agents",
+      "agents_other": "{{count}} agents",
+      "whoEvery_one": "Votre agent l'utilise.",
+      "whoEvery_many": "Les {{count}} agents l'utilisent.",
+      "whoEvery_other": "Les {{count}} agents l'utilisent.",
+      "whoSome_one": "{{names}}. L'autre agent ne l'utilise pas.",
+      "whoSome_many": "{{names}}. Les {{count}} autres agents ne l'utilisent pas.",
+      "whoSome_other": "{{names}}. Les {{count}} autres agents ne l'utilisent pas.",
+      "change": "Modifier",
+      "see": "Voir",
+      "account": "Compte",
+      "toolsText": "Ce que les agents peuvent faire avec, et ce qui vous demande.",
+      "addressesText": "Avec qui les agents peuvent échanger depuis cette boîte.",
+      "bandTitle_one": "{{count}} service à connecter",
+      "bandTitle_many": "{{count}} services à connecter",
+      "bandTitle_other": "{{count}} services à connecter",
+      "bandText": "{{names}} et d'autres.",
+      "appMissing": "L'application de ce serveur n'est pas encore créée",
+      "appEvents": "Il manque des événements à l'application",
+      "appLine": "Application de ce serveur",
+      "eventsLine": "Événements"
     },
+    "howShort": {
+      "oneClick": "Un clic",
+      "oauthOrKey": "Un clic ou une clé API",
+      "key": "Clé API",
+      "appPassword": "Mot de passe d'application",
+      "addressPassword": "Adresse et mot de passe",
+      "composio": "Via Composio"
+    },
+    "add": "Ajouter un connecteur",
     "personal": {
       "note": "Vous seul ouvrez ces connexions. Vos agents les utilisent seulement quand vous le demandez.",
       "noteOne": "Vous seul ouvrez cette connexion. Vos agents l'utilisent seulement quand vous le demandez.",
@@ -13790,9 +13829,6 @@
       "moveText": "Tout le workspace la voit. Les personnes qui gèrent les agents choisissent quels agents l'utilisent, et le propriétaire d'un agent peut la désactiver sur le sien. Un agent qui utilise toutes les apps connectées la reçoit tout de suite.",
       "moved": "{{name}} appartient maintenant à l’équipe."
     },
-    "addTitle": "Ajouter un connecteur",
-    "catalogText": "Connectez une seule fois pour {{org}}. Choisissez ensuite ce que chaque agent peut utiliser.",
-    "catalog": "Connecteurs disponibles",
     "categories": "Catégories",
     "category": {
       "all": "Tous",
@@ -13813,8 +13849,6 @@
     "connectName": "Connecter {{name}}",
     "reconnectName": "Reconnecter {{name}}",
     "addAccountName": "Ajouter un autre compte {{name}}",
-    "other": "Vous ne trouvez pas ?",
-    "otherText": "Connectez n'importe quel service via son adresse.",
     "search": "Rechercher des connecteurs",
     "searchPlaceholder": "Rechercher par nom ou par fonction",
     "empty": "Aucun connecteur ne correspond à « {{q}} »",
@@ -13828,25 +13862,15 @@
     "more": "Plus de services",
     "tileConnected": "{{name}}, connecté",
     "tileSoon": "{{name}}, bientôt",
-    "otherTitle": "Un autre service",
-    "otherDetail": "Tout service qui propose une connexion pour les agents, via son adresse (elle commence par https://).",
-    "otherSteps": {
-      "1": "Vous collez l'adresse et autorisez l'accès sur la page du service",
-      "2": "Nous déterminons ce que fait chacun de ses outils",
-      "ask": "Tout ce qui est sensible demande toujours votre approbation"
-    },
     "otherConnect": "Connecter par adresse",
     "detail": {
-      "close": "Fermer les détails",
       "can": "Ce que les agents pourront faire",
       "afterText": "Aucun agent ne l'utilise tant que vous n'avez pas choisi.",
       "allText": "Une fois connecté, tous les agents peuvent l'utiliser. Vous pourrez ajuster cela plus tard.",
       "addAccount": "Ajouter un autre compte",
       "accountsText": "Chaque compte a ses propres agents et niveaux.",
       "reconnect": "Reconnecter",
-      "replaceText": "Remplace la connexion actuelle. Ceux qui l'utilisent restent les mêmes.",
-      "connected": "Déjà connecté",
-      "how": "Fonctionnement"
+      "replaceText": "Remplace la connexion actuelle. Ceux qui l'utilisent restent les mêmes."
     },
     "how": {
       "oneClick": "Un clic : vous autorisez l'accès sur la page du service",
@@ -14219,7 +14243,6 @@
         "ask": "Chaque envoi demande toujours votre approbation"
       }
     },
-    "connectedList": "Connectés",
     "connected": "Connecté",
     "connectedAs": "Connecté en tant que {{account}}",
     "reconnectAdds": "Reconnectez {{name}} pour que les agents puissent aussi {{what}}.",

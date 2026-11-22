@@ -444,22 +444,25 @@ export function CardSky({ color }: { color: AgentColor }) {
  * The top of a suggested connector in the catalog: a soft pixel sky in the brand's own color (the
  * ink's sky when the brand has none), fading into the card.
  */
-export function ConnectorSky({ brand }: { brand: string | null }) {
+export function ConnectorSky({ brand, cover }: { brand: string | null; cover?: boolean }) {
   return (
-    <span className="catalog-feat__sky" aria-hidden="true">
+    <span className={cover ? "catalog-feat__sky catalog-feat__sky--cover" : "catalog-feat__sky"} aria-hidden="true">
       <PixelSky
         options={{
           pixel: 3,
-          surface: "--raised",
+          // `cover`: the sky fills a feature of the store, drawn on that card's own surface.
+          surface: cover ? "--card-well" : "--raised",
           palette: (bg) =>
             brand
               ? [bg, mix(bg, brand, 0.1), mix(bg, brand, 0.22), mix(bg, brand, 0.36), mix(bg, brand, 0.52)]
               : softTones("sky", bg),
           light: 0,
-          base: (u, v, tt) => {
-            const fade = Math.max(0, 1 - v);
-            return fade * (0.35 + 0.35 * u + 0.06 * S(u * 6 + tt * 0.4));
-          },
+          base: cover
+            ? (u, v, tt) => 0.1 + 0.62 * u * (1 - v) + 0.05 * S(u * 4 + tt * 0.5)
+            : (u, v, tt) => {
+                const fade = Math.max(0, 1 - v);
+                return fade * (0.35 + 0.35 * u + 0.06 * S(u * 6 + tt * 0.4));
+              },
         }}
       />
     </span>

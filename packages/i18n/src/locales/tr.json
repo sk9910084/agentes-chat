@@ -13178,13 +13178,48 @@
   },
   "connectors": {
     "title": "Bağlayıcılar",
-    "add": "Bağlayıcı ekle",
-    "mcp": {
-      "title": "MCP'ler",
-      "add": "MCP ekle",
-      "list": "Bağlı MCP sunucuları",
-      "none": "Adresiyle bağladığınız MCP sunucuları burada görünür."
+    "store": {
+      "featured": "Öne çıkanlar",
+      "suggested": "Önerilen",
+      "seeAll": "Tümünü gör",
+      "connect": "Bağla",
+      "connected": "Bağlandı",
+      "browse": "Bağlayıcılara göz at",
+      "notListed": "Mağazada olmayan bir hizmet mi var?",
+      "howLabel": "Nasıl bağlanır",
+      "whoAll": "Tüm ajanlar",
+      "whoChoose": "Sonra seçersiniz",
+      "asksLabel": "Onay",
+      "asksSensitive": "Hassas işlemler size sorar",
+      "afterTitle": "Bağladıktan sonra",
+      "agents_one": "{{count}} ajan",
+      "agents_other": "{{count}} ajan",
+      "whoEvery_one": "Ajanınız kullanıyor.",
+      "whoEvery_other": "{{count}} ajanın hepsi kullanıyor.",
+      "whoSome_one": "{{names}}. Diğer ajan kullanmıyor.",
+      "whoSome_other": "{{names}}. Diğer {{count}} ajan kullanmıyor.",
+      "change": "Değiştir",
+      "see": "Gör",
+      "account": "Hesap",
+      "toolsText": "Ajanların bununla neler yapabileceği ve size neleri soracağı.",
+      "addressesText": "Ajanların bu posta kutusuyla kimlerle yazışabileceği.",
+      "bandTitle_one": "Bağlanacak {{count}} hizmet",
+      "bandTitle_other": "Bağlanacak {{count}} hizmet",
+      "bandText": "{{names}} ve daha fazlası.",
+      "appMissing": "Bu sunucunun uygulaması henüz oluşturulmadı",
+      "appEvents": "Uygulamada eksik olaylar var",
+      "appLine": "Bu sunucunun uygulaması",
+      "eventsLine": "Olaylar"
     },
+    "howShort": {
+      "oneClick": "Tek tık",
+      "oauthOrKey": "Tek tık veya API anahtarı",
+      "key": "API anahtarı",
+      "appPassword": "Uygulama şifresi",
+      "addressPassword": "Adres ve şifre",
+      "composio": "Composio üzerinden"
+    },
+    "add": "Bağlayıcı ekle",
     "personal": {
       "note": "Bu bağlantıları yalnızca sen açarsın. Ajanların bunları yalnızca sen istediğinde kullanır.",
       "noteOne": "Bu bağlantıyı yalnızca sen açarsın ve ajanların onu yalnızca sen istediğinde kullanır.",
@@ -13216,9 +13251,6 @@
       "moveText": "Workspace'teki herkes görür. Hangi ajanların kullanacağını ajanları yöneten kişiler seçer, bir ajanın sahibi de kendi ajanında kapatabilir. Bağlı tüm uygulamaları kullanan bir ajan onu hemen alır.",
       "moved": "{{name}} artık ekibin."
     },
-    "addTitle": "Bağlayıcı ekle",
-    "catalogText": "{{org}} için bir kez bağlayın. Sonra her ajanın neyi kullanabileceğini seçin.",
-    "catalog": "Kullanılabilir bağlayıcılar",
     "categories": "Kategoriler",
     "category": {
       "all": "Tümü",
@@ -13239,8 +13271,6 @@
     "connectName": "{{name}} bağla",
     "reconnectName": "{{name}} yeniden bağla",
     "addAccountName": "Başka bir {{name}} hesabı ekle",
-    "other": "Bulamadınız mı?",
-    "otherText": "Herhangi bir hizmeti adresiyle bağlayın.",
     "search": "Bağlayıcı ara",
     "searchPlaceholder": "Ada veya ne yaptığına göre arayın",
     "empty": "“{{q}}” ile eşleşen bağlayıcı yok",
@@ -13254,25 +13284,15 @@
     "more": "Diğer hizmetler",
     "tileConnected": "{{name}}, bağlı",
     "tileSoon": "{{name}}, yakında",
-    "otherTitle": "Başka bir hizmet",
-    "otherDetail": "Ajanlar için bağlantı sunan herhangi bir hizmet, adresiyle (https:// ile başlar).",
-    "otherSteps": {
-      "1": "Adresi yapıştırır ve hizmetin sayfasında yetki verirsiniz",
-      "2": "Araçlarının her birinin ne yaptığını biz düzenleriz",
-      "ask": "Hassas olan her şey her zaman onayınızı ister"
-    },
     "otherConnect": "Adresle bağla",
     "detail": {
-      "close": "Ayrıntıları kapat",
       "can": "Ajanların yapabilecekleri",
       "afterText": "Siz seçene kadar hiçbir ajan kullanmaz.",
       "allText": "Bağlandıktan sonra her ajan kullanabilir. Bunu daha sonra ayarlayabilirsiniz.",
       "addAccount": "Başka bir hesap ekle",
       "accountsText": "Her hesabın kendi ajanları ve seviyeleri vardır.",
       "reconnect": "Yeniden bağla",
-      "replaceText": "Mevcut girişin yerini alır. Kimin kullandığı aynı kalır.",
-      "connected": "Zaten bağlı",
-      "how": "Nasıl çalışır"
+      "replaceText": "Mevcut girişin yerini alır. Kimin kullandığı aynı kalır."
     },
     "how": {
       "oneClick": "Tek tık: hizmetin sayfasında yetki verirsiniz",
@@ -13645,7 +13665,6 @@
         "ask": "Her yükleme her zaman onayınızı ister"
       }
     },
-    "connectedList": "Bağlı",
     "connected": "Bağlı",
     "connectedAs": "{{account}} olarak bağlı",
     "reconnectAdds": "Ajanlar {{what}} diye {{name}} bağlantısını yeniden kurun.",

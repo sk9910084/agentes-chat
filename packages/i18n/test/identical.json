@@ -76,7 +76,6 @@
       "connectors.category.docs",
       "connectors.category.email",
       "connectors.category.marketing",
-      "connectors.mcp.title",
       "connectors.names.cloudflare_bindings",
       "connectors.names.cloudflare_observability",
       "database.provider.neon",
@@ -1160,7 +1159,8 @@
       "codeSessions.gitTab.commits",
       "codeTerminal.label",
       "codeSessions.tabs.talk",
-      "codeSessions.tabs.terminalN"
+      "codeSessions.tabs.terminalN",
+      "connectors.store.agents"
     ],
     "de": [
       "live.sheet.args.k",
@@ -2061,7 +2061,8 @@
       "codeSessions.home.was",
       "codeSessions.gitTab.label",
       "codeSessions.files.count",
-      "cliTools.files"
+      "cliTools.files",
+      "connectors.store.account"
     ],
     "nl": [
       "usage.kinds.routines",
@@ -2740,7 +2741,9 @@
       "cliTools.progress.subagent",
       "cliTools.progress.agents",
       "codeTerminal.label",
-      "codeSessions.tabs.terminalN"
+      "codeSessions.tabs.terminalN",
+      "connectors.store.agents",
+      "connectors.store.account"
     ],
     "ja": [
       "live.sheet.args.k",
@@ -4158,7 +4161,8 @@
       "cliTools.progress.subagent",
       "cliTools.progress.agents",
       "codeTerminal.label",
-      "codeSessions.tabs.terminalN"
+      "codeSessions.tabs.terminalN",
+      "connectors.store.agents"
     ],
     "ru": [
       "live.canvas.sizes.short.s",

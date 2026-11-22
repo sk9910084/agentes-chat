@@ -82,7 +82,7 @@ describe("who can't act gets an honest line and no button that fails", () => {
   test("Conectores without manage_connectors: their own to add on Pessoal, the team's to look at", async () => {
     await go(fresh(["read"]), "settings/connectors");
     expect(title()).toBe("Conecte suas próprias contas");
-    expect(buttons().map((b) => b.textContent)).toEqual(["Adicionar conector"]);
+    expect(buttons().map((b) => b.textContent)).toEqual(["Ver conectores"]);
     await act(async () => fireEvent.click(screen().getByRole("radio", { name: /Equipe/ })));
     await settle(2);
     expect(title()).toBe("Veja o que os agentes podem usar");

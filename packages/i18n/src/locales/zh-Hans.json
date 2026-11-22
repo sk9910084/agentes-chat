@@ -12773,13 +12773,44 @@
   },
   "connectors": {
     "title": "连接器",
-    "add": "添加连接器",
-    "mcp": {
-      "title": "MCP",
-      "add": "添加 MCP",
-      "list": "已连接的 MCP 服务器",
-      "none": "通过地址连接的 MCP 服务器会显示在这里。"
+    "store": {
+      "featured": "精选",
+      "suggested": "推荐",
+      "seeAll": "查看全部",
+      "connect": "连接",
+      "connected": "已连接",
+      "browse": "浏览连接器",
+      "notListed": "商店里没有你要的服务？",
+      "howLabel": "连接方式",
+      "whoAll": "所有智能体",
+      "whoChoose": "之后再选",
+      "asksLabel": "审批",
+      "asksSensitive": "敏感操作会先问你",
+      "afterTitle": "连接之后",
+      "agents_other": "{{count}} 个智能体",
+      "whoEvery_other": "全部 {{count}} 个智能体都在使用。",
+      "whoSome_other": "{{names}}。其他 {{count}} 个智能体没有使用。",
+      "change": "更改",
+      "see": "查看",
+      "account": "账号",
+      "toolsText": "智能体可以用它做什么，以及哪些操作会先问你。",
+      "addressesText": "智能体可以通过这个邮箱联系的人。",
+      "bandTitle_other": "{{count}} 个可连接的服务",
+      "bandText": "{{names}} 等。",
+      "appMissing": "这个服务器的应用还没有创建",
+      "appEvents": "应用缺少事件",
+      "appLine": "这个服务器的应用",
+      "eventsLine": "事件"
     },
+    "howShort": {
+      "oneClick": "一键",
+      "oauthOrKey": "一键或 API 密钥",
+      "key": "API 密钥",
+      "appPassword": "应用专用密码",
+      "addressPassword": "地址和密码",
+      "composio": "通过 Composio"
+    },
+    "add": "添加连接器",
     "personal": {
       "note": "只有你能打开这些连接。你的智能体只在你要求时使用它们。",
       "noteOne": "只有你能打开这个连接，你的智能体只在你要求时使用它。",
@@ -12811,9 +12842,6 @@
       "moveText": "工作区里的所有人都能看到。由管理智能体的人选择哪些智能体使用它，智能体的所有者可以在自己的智能体上关闭它。使用所有已连接应用的智能体会立即用上它。",
       "moved": "{{name}} 现在属于团队。"
     },
-    "addTitle": "添加连接器",
-    "catalogText": "为 {{org}} 连接一次，然后选择每个智能体可以使用什么。",
-    "catalog": "可用的连接器",
     "categories": "分类",
     "category": {
       "all": "全部",
@@ -12834,8 +12862,6 @@
     "connectName": "连接 {{name}}",
     "reconnectName": "重新连接 {{name}}",
     "addAccountName": "添加另一个 {{name}} 账号",
-    "other": "找不到？",
-    "otherText": "通过地址连接任意服务。",
     "search": "搜索连接器",
     "searchPlaceholder": "按名称或功能搜索",
     "empty": "没有与“{{q}}”匹配的连接器",
@@ -12849,25 +12875,15 @@
     "more": "更多服务",
     "tileConnected": "{{name}}，已连接",
     "tileSoon": "{{name}}，即将推出",
-    "otherTitle": "其他服务",
-    "otherDetail": "任何为智能体提供连接的服务，通过它的地址连接（以 https:// 开头）。",
-    "otherSteps": {
-      "1": "粘贴地址，然后在服务的页面上授权",
-      "2": "我们会整理好它每个工具的作用",
-      "ask": "任何敏感操作都会先请你审批"
-    },
     "otherConnect": "通过地址连接",
     "detail": {
-      "close": "关闭详情",
       "can": "智能体将能做什么",
       "afterText": "在你选择之前，没有智能体会使用它。",
       "allText": "连接后，所有智能体都可以使用。之后可以调整。",
       "addAccount": "添加另一个账号",
       "accountsText": "每个账号都有自己的智能体和权限级别。",
       "reconnect": "重新连接",
-      "replaceText": "替换当前的登录，使用者保持不变。",
-      "connected": "已连接",
-      "how": "运作方式"
+      "replaceText": "替换当前的登录，使用者保持不变。"
     },
     "how": {
       "oneClick": "一键完成：在服务的页面上授权",
@@ -13240,7 +13256,6 @@
         "ask": "每次上传始终需要你的审批"
       }
     },
-    "connectedList": "已连接",
     "connected": "已连接",
     "connectedAs": "已连接为 {{account}}",
     "reconnectAdds": "重新连接 {{name}}，让智能体也能{{what}}。",

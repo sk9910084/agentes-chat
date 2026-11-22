@@ -13317,13 +13317,48 @@
   },
   "connectors": {
     "title": "Connectors",
-    "add": "Connector toevoegen",
-    "mcp": {
-      "title": "MCP's",
-      "add": "MCP toevoegen",
-      "list": "Gekoppelde MCP-servers",
-      "none": "MCP-servers die je via hun adres koppelt, verschijnen hier."
+    "store": {
+      "featured": "Uitgelicht",
+      "suggested": "Voorgesteld",
+      "seeAll": "Alles bekijken",
+      "connect": "Koppelen",
+      "connected": "Gekoppeld",
+      "browse": "Connectors bekijken",
+      "notListed": "Mist er een dienst in de store?",
+      "howLabel": "Zo koppel je",
+      "whoAll": "Alle agents",
+      "whoChoose": "Kies je later",
+      "asksLabel": "Goedkeuring",
+      "asksSensitive": "Gevoelige acties vragen het jou",
+      "afterTitle": "Na het koppelen",
+      "agents_one": "{{count}} agent",
+      "agents_other": "{{count}} agents",
+      "whoEvery_one": "Je agent gebruikt het.",
+      "whoEvery_other": "Alle {{count}} agents gebruiken het.",
+      "whoSome_one": "{{names}}. De andere agent gebruikt het niet.",
+      "whoSome_other": "{{names}}. De andere {{count}} agents gebruiken het niet.",
+      "change": "Wijzigen",
+      "see": "Bekijken",
+      "account": "Account",
+      "toolsText": "Wat agents ermee kunnen doen, en wat het jou vraagt.",
+      "addressesText": "Met wie agents via deze mailbox kunnen praten.",
+      "bandTitle_one": "{{count}} dienst om te koppelen",
+      "bandTitle_other": "{{count}} diensten om te koppelen",
+      "bandText": "{{names}} en meer.",
+      "appMissing": "De app van deze server is nog niet gemaakt",
+      "appEvents": "De app mist gebeurtenissen",
+      "appLine": "App van deze server",
+      "eventsLine": "Gebeurtenissen"
     },
+    "howShort": {
+      "oneClick": "Eén klik",
+      "oauthOrKey": "Eén klik of een API-sleutel",
+      "key": "API-sleutel",
+      "appPassword": "App-wachtwoord",
+      "addressPassword": "Adres en wachtwoord",
+      "composio": "Via Composio"
+    },
+    "add": "Connector toevoegen",
     "personal": {
       "note": "Alleen jij opent deze verbindingen. Je agenten gebruiken ze alleen als je erom vraagt.",
       "noteOne": "Alleen jij opent deze verbinding. Je agenten gebruiken ze alleen als je erom vraagt.",
@@ -13355,9 +13390,6 @@
       "moveText": "Iedereen in de workspace ziet het. Wie agenten beheert, kiest welke agenten het gebruiken, en de eigenaar van een agent kan het bij die van hem uitzetten. Een agent die alle gekoppelde apps gebruikt, krijgt het meteen.",
       "moved": "{{name}} is nu van het team."
     },
-    "addTitle": "Connector toevoegen",
-    "catalogText": "Koppel één keer voor {{org}}. Kies daarna wat elke agent mag gebruiken.",
-    "catalog": "Beschikbare connectors",
     "categories": "Categorieën",
     "category": {
       "all": "Alle",
@@ -13378,8 +13410,6 @@
     "connectName": "{{name}} koppelen",
     "reconnectName": "{{name}} opnieuw koppelen",
     "addAccountName": "Nog een {{name}}-account toevoegen",
-    "other": "Niet gevonden?",
-    "otherText": "Koppel elke dienst via zijn adres.",
     "search": "Connectors zoeken",
     "searchPlaceholder": "Zoek op naam of op wat het doet",
     "empty": "Geen connector gevonden voor “{{q}}”",
@@ -13393,25 +13423,15 @@
     "more": "Meer diensten",
     "tileConnected": "{{name}}, gekoppeld",
     "tileSoon": "{{name}}, binnenkort",
-    "otherTitle": "Een andere dienst",
-    "otherDetail": "Elke dienst die een koppeling voor agents biedt, via zijn adres (dat begint met https://).",
-    "otherSteps": {
-      "1": "Je plakt het adres en geeft toestemming op de pagina van de dienst",
-      "2": "Wij zoeken uit wat elk van zijn tools doet",
-      "ask": "Alles wat gevoelig is, vraagt altijd om jouw goedkeuring"
-    },
     "otherConnect": "Koppelen via adres",
     "detail": {
-      "close": "Details sluiten",
       "can": "Wat agents kunnen doen",
       "afterText": "Geen agent gebruikt het tot jij kiest.",
       "allText": "Na het koppelen kan elke agent het gebruiken. Dat kun je later aanpassen.",
       "addAccount": "Nog een account toevoegen",
       "accountsText": "Elk account heeft eigen agents en niveaus.",
       "reconnect": "Opnieuw koppelen",
-      "replaceText": "Vervangt de huidige login. Wie het gebruikt, blijft hetzelfde.",
-      "connected": "Al gekoppeld",
-      "how": "Zo werkt het"
+      "replaceText": "Vervangt de huidige login. Wie het gebruikt, blijft hetzelfde."
     },
     "how": {
       "oneClick": "Eén klik: je geeft toestemming op de pagina van de dienst",
@@ -13784,7 +13804,6 @@
         "ask": "Elke upload vraagt altijd om je goedkeuring"
       }
     },
-    "connectedList": "Gekoppeld",
     "connected": "Gekoppeld",
     "connectedAs": "Gekoppeld als {{account}}",
     "reconnectAdds": "Verbind {{name}} opnieuw zodat agents ook {{what}}.",

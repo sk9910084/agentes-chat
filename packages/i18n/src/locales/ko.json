@@ -12698,13 +12698,44 @@
   },
   "connectors": {
     "title": "커넥터",
-    "add": "커넥터 추가",
-    "mcp": {
-      "title": "MCP",
-      "add": "MCP 추가",
-      "list": "연결된 MCP 서버",
-      "none": "주소로 연결한 MCP 서버가 여기에 표시돼요."
+    "store": {
+      "featured": "추천",
+      "suggested": "제안",
+      "seeAll": "모두 보기",
+      "connect": "연결",
+      "connected": "연결됨",
+      "browse": "커넥터 둘러보기",
+      "notListed": "스토어에 없는 서비스가 있나요?",
+      "howLabel": "연결 방법",
+      "whoAll": "모든 에이전트",
+      "whoChoose": "나중에 고를 수 있어요",
+      "asksLabel": "승인",
+      "asksSensitive": "민감한 작업은 확인을 요청해요",
+      "afterTitle": "연결한 다음",
+      "agents_other": "에이전트 {{count}}명",
+      "whoEvery_other": "에이전트 {{count}}명 모두 사용해요.",
+      "whoSome_other": "{{names}}. 나머지 에이전트 {{count}}명은 사용하지 않아요.",
+      "change": "변경",
+      "see": "보기",
+      "account": "계정",
+      "toolsText": "에이전트가 이걸로 할 수 있는 일과 확인을 요청하는 일이에요.",
+      "addressesText": "에이전트가 이 메일함으로 연락할 수 있는 상대예요.",
+      "bandTitle_other": "연결할 수 있는 서비스 {{count}}개",
+      "bandText": "{{names}} 등.",
+      "appMissing": "이 서버의 앱이 아직 만들어지지 않았어요",
+      "appEvents": "앱에 이벤트가 빠져 있어요",
+      "appLine": "이 서버의 앱",
+      "eventsLine": "이벤트"
     },
+    "howShort": {
+      "oneClick": "클릭 한 번",
+      "oauthOrKey": "클릭 한 번 또는 API 키",
+      "key": "API 키",
+      "appPassword": "앱 비밀번호",
+      "addressPassword": "주소와 비밀번호",
+      "composio": "Composio를 통해"
+    },
+    "add": "커넥터 추가",
     "personal": {
       "note": "이 연결은 나만 열 수 있어요. 내가 부탁할 때만 에이전트가 사용해요.",
       "noteOne": "이 연결은 나만 열 수 있고, 내가 부탁할 때만 에이전트가 사용해요.",
@@ -12736,9 +12767,6 @@
       "moveText": "워크스페이스의 모든 사람이 보게 됩니다. 어떤 에이전트가 쓸지는 에이전트를 관리하는 사람이 정하고, 에이전트 주인은 자기 에이전트에서 끌 수 있습니다. 연결된 모든 앱을 쓰는 에이전트는 바로 쓰게 됩니다.",
       "moved": "{{name}}은(는) 이제 팀의 것이에요."
     },
-    "addTitle": "커넥터 추가",
-    "catalogText": "{{org}}에 한 번만 연결하세요. 그다음 에이전트마다 사용할 수 있는 것을 정해요.",
-    "catalog": "사용 가능한 커넥터",
     "categories": "카테고리",
     "category": {
       "all": "전체",
@@ -12759,8 +12787,6 @@
     "connectName": "{{name}} 연결",
     "reconnectName": "{{name}} 다시 연결",
     "addAccountName": "다른 {{name}} 계정 추가",
-    "other": "찾는 게 없나요?",
-    "otherText": "주소만 있으면 어떤 서비스든 연결할 수 있어요.",
     "search": "커넥터 검색",
     "searchPlaceholder": "이름이나 기능으로 검색",
     "empty": "“{{q}}”와(과) 일치하는 커넥터가 없어요",
@@ -12774,25 +12800,15 @@
     "more": "더 많은 서비스",
     "tileConnected": "{{name}}, 연결됨",
     "tileSoon": "{{name}}, 곧 출시",
-    "otherTitle": "다른 서비스",
-    "otherDetail": "에이전트용 연결을 제공하는 서비스라면 주소(https://로 시작)로 연결할 수 있어요.",
-    "otherSteps": {
-      "1": "주소를 붙여넣고 서비스 페이지에서 승인해요",
-      "2": "각 도구가 하는 일은 저희가 정리해요",
-      "ask": "민감한 작업은 항상 승인을 요청해요"
-    },
     "otherConnect": "주소로 연결",
     "detail": {
-      "close": "세부 정보 닫기",
       "can": "에이전트가 할 수 있는 일",
       "afterText": "직접 선택하기 전까지는 어떤 에이전트도 사용하지 않아요.",
       "allText": "연결하면 모든 에이전트가 사용할 수 있어요. 나중에 조정할 수 있어요.",
       "addAccount": "다른 계정 추가",
       "accountsText": "계정마다 에이전트와 수준이 따로 있어요.",
       "reconnect": "다시 연결",
-      "replaceText": "현재 로그인을 대체해요. 사용하는 대상은 그대로예요.",
-      "connected": "이미 연결됨",
-      "how": "작동 방식"
+      "replaceText": "현재 로그인을 대체해요. 사용하는 대상은 그대로예요."
     },
     "how": {
       "oneClick": "클릭 한 번: 서비스 페이지에서 승인해요",
@@ -13165,7 +13181,6 @@
         "ask": "업로드할 때마다 항상 승인을 요청합니다"
       }
     },
-    "connectedList": "연결됨",
     "connected": "연결됨",
     "connectedAs": "{{account}}(으)로 연결됨",
     "reconnectAdds": "{{name}}을(를) 다시 연결하면 에이전트가 {{what}} 수도 있어요.",

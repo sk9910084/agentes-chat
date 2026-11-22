@@ -232,11 +232,17 @@ export function DialogBody({ className, ...rest }: React.HTMLAttributes<HTMLDivE
 
 export function DialogFooter({
   note,
+  busyNote,
   bar,
   className,
   children,
 }: {
   note?: ReactNode;
+  /**
+   * While something runs (a connection being tested): its words in the note's place, laid over the note so the footer
+   * keeps the note's size and its buttons stay where they are.
+   */
+  busyNote?: ReactNode;
   /** Footer separated by a line (lists). */
   bar?: boolean;
   className?: string;
@@ -249,7 +255,18 @@ export function DialogFooter({
     <div className={cx("ac-dialog__foot", bar && "ac-dialog__foot--bar", className)}>
       {note !== undefined ? (
         <>
-          <span className="ac-dialog__foot-note">{note}</span>
+          <span className="ac-dialog__foot-note">
+            {busyNote == null ? (
+              note
+            ) : (
+              <span className="ac-dialog__foot-swap">
+                <span className="ac-dialog__foot-swap-off" aria-hidden="true">
+                  {note}
+                </span>
+                <span role="status">{busyNote}</span>
+              </span>
+            )}
+          </span>
           <div className="ac-dialog__foot-acts">{children}</div>
         </>
       ) : (
