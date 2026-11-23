@@ -12865,6 +12865,11 @@
     "more": "Layanan lainnya",
     "tileConnected": "{{name}}, terhubung",
     "tileSoon": "{{name}}, segera",
+    "otherSteps": {
+      "1": "Kamu menempel alamatnya dan memberi izin di halaman layanan",
+      "2": "Kami memilah fungsi tiap alatnya",
+      "ask": "Apa pun yang sensitif selalu meminta persetujuanmu"
+    },
     "otherConnect": "Hubungkan lewat alamat",
     "detail": {
       "can": "Apa yang bisa dilakukan agen",

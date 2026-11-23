@@ -13862,6 +13862,11 @@
     "more": "Plus de services",
     "tileConnected": "{{name}}, connecté",
     "tileSoon": "{{name}}, bientôt",
+    "otherSteps": {
+      "1": "Vous collez l'adresse et autorisez l'accès sur la page du service",
+      "2": "Nous déterminons ce que fait chacun de ses outils",
+      "ask": "Tout ce qui est sensible demande toujours votre approbation"
+    },
     "otherConnect": "Connecter par adresse",
     "detail": {
       "can": "Ce que les agents pourront faire",

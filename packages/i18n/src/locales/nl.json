@@ -13423,6 +13423,11 @@
     "more": "Meer diensten",
     "tileConnected": "{{name}}, gekoppeld",
     "tileSoon": "{{name}}, binnenkort",
+    "otherSteps": {
+      "1": "Je plakt het adres en geeft toestemming op de pagina van de dienst",
+      "2": "Wij zoeken uit wat elk van zijn tools doet",
+      "ask": "Alles wat gevoelig is, vraagt altijd om jouw goedkeuring"
+    },
     "otherConnect": "Koppelen via adres",
     "detail": {
       "can": "Wat agents kunnen doen",

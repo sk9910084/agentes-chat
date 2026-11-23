@@ -13355,6 +13355,11 @@
     "more": "Weitere Dienste",
     "tileConnected": "{{name}}, verbunden",
     "tileSoon": "{{name}}, bald",
+    "otherSteps": {
+      "1": "Du fügst die Adresse ein und autorisierst auf der Seite des Dienstes",
+      "2": "Wir finden heraus, was jedes seiner Tools macht",
+      "ask": "Alles Sensible fragt immer nach deiner Freigabe"
+    },
     "otherConnect": "Über Adresse verbinden",
     "detail": {
       "can": "Was Agenten tun können",

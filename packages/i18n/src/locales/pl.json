@@ -14378,6 +14378,11 @@
     "more": "Więcej usług",
     "tileConnected": "{{name}}, połączono",
     "tileSoon": "{{name}}, wkrótce",
+    "otherSteps": {
+      "1": "Wklejasz adres i autoryzujesz na stronie usługi",
+      "2": "Ustalamy, co robi każde z jej narzędzi",
+      "ask": "Wszystko, co wrażliwe, zawsze prosi o twoje zatwierdzenie"
+    },
     "otherConnect": "Połącz przez adres",
     "detail": {
       "can": "Co będą mogli robić agenci",

@@ -13874,6 +13874,11 @@ export const en = {
     more: "More services",
     tileConnected: "{{name}}, connected",
     tileSoon: "{{name}}, soon",
+    otherSteps: {
+      "1": "You paste the address and authorize on the service's page",
+      "2": "We sort out what each of its tools does",
+      ask: "Anything sensitive always asks for your approval",
+    },
     otherConnect: "Connect by address",
     detail: {
       can: "What agents will be able to do",

@@ -13284,6 +13284,11 @@
     "more": "Diğer hizmetler",
     "tileConnected": "{{name}}, bağlı",
     "tileSoon": "{{name}}, yakında",
+    "otherSteps": {
+      "1": "Adresi yapıştırır ve hizmetin sayfasında yetki verirsiniz",
+      "2": "Araçlarının her birinin ne yaptığını biz düzenleriz",
+      "ask": "Hassas olan her şey her zaman onayınızı ister"
+    },
     "otherConnect": "Adresle bağla",
     "detail": {
       "can": "Ajanların yapabilecekleri",

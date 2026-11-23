@@ -32247,6 +32247,15 @@
   "connectors.tileSoon": {
     "value": "{{name}}, soon"
   },
+  "connectors.otherSteps.1": {
+    "value": "You paste the address and authorize on the service's page"
+  },
+  "connectors.otherSteps.2": {
+    "value": "We sort out what each of its tools does"
+  },
+  "connectors.otherSteps.ask": {
+    "value": "Anything sensitive always asks for your approval"
+  },
   "connectors.otherConnect": {
     "value": "Connect by address"
   },

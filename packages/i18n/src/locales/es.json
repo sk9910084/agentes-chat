@@ -13787,6 +13787,11 @@
     "more": "Más servicios",
     "tileConnected": "{{name}}, conectado",
     "tileSoon": "{{name}}, pronto",
+    "otherSteps": {
+      "1": "Pegas la dirección y autorizas en la página del servicio",
+      "2": "Nosotros vemos qué hace cada una de sus herramientas",
+      "ask": "Todo lo sensible siempre pide tu aprobación"
+    },
     "otherConnect": "Conectar por dirección",
     "detail": {
       "can": "Lo que podrán hacer los agentes",

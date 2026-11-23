@@ -13884,6 +13884,11 @@
     "more": "Altri servizi",
     "tileConnected": "{{name}}, collegato",
     "tileSoon": "{{name}}, in arrivo",
+    "otherSteps": {
+      "1": "Incolli l'indirizzo e autorizzi nella pagina del servizio",
+      "2": "Capiamo noi cosa fa ciascuno dei suoi strumenti",
+      "ask": "Tutto ciò che è sensibile chiede sempre la tua approvazione"
+    },
     "otherConnect": "Collega tramite indirizzo",
     "detail": {
       "can": "Cosa potranno fare gli agenti",

@@ -13879,6 +13879,11 @@ export const ptBR = {
     more: "Mais serviços",
     tileConnected: "{{name}}, conectado",
     tileSoon: "{{name}}, em breve",
+    otherSteps: {
+      "1": "Você cola o endereço e autoriza na página do serviço",
+      "2": "A gente classifica o que cada ferramenta faz",
+      ask: "O que for sensível sempre pede sua aprovação",
+    },
     otherConnect: "Conectar pelo endereço",
     detail: {
       can: "O que os agentes poderão fazer",
