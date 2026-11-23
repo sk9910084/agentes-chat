@@ -349,7 +349,7 @@ export function ConnectorsSection({
     const reviewName = t("connectors.reviewName", { name });
     return {
       key: `on:${item.id}`,
-      icon: <ConnectorIcon def={item.def} image={item.image} label={name} size="lg" />,
+      icon: <ConnectorIcon def={item.def} image={item.image} label={name} />,
       name,
       sub: [item.account, t("connectors.toolsCount", { count: item.tools })].filter((x): x is string => !!x),
       need: item.needsReconnect
@@ -429,7 +429,7 @@ export function ConnectorsSection({
     const signIn = () => reconnect(box);
     return {
       key: `on:mail-${box.id}`,
-      icon: <MailIcon choice={choiceOf(box)} size="lg" />,
+      icon: <MailIcon choice={choiceOf(box)} />,
       name: mailChoiceName(t, choiceOf(box)),
       sub: [box.address],
       need:
@@ -486,7 +486,7 @@ export function ConnectorsSection({
     const where = db.wholeServer ? `${db.username}@${db.host}` : `${db.username}@${db.host}/${db.database}`;
     return {
       key: `on:db-${db.id}`,
-      icon: <DatabaseIcon size="lg" />,
+      icon: <DatabaseIcon />,
       name,
       sub: [t("database.readOnlyChip"), where],
       need:
@@ -572,7 +572,7 @@ export function ConnectorsSection({
     );
     return {
       key: "on:github-app",
-      icon: <ConnectorIcon def={defs.find((d) => d.id === "github") ?? null} label="GitHub" size="lg" />,
+      icon: <ConnectorIcon def={defs.find((d) => d.id === "github") ?? null} label="GitHub" />,
       name,
       sub: [setup.canCreate ? t("githubApp.server.lead") : (setup.slug ?? "")].filter(Boolean),
       need: setup.canCreate

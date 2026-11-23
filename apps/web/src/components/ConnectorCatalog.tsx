@@ -340,7 +340,7 @@ export function StoreBand({ entries, onOpen }: { entries: CatalogEntry[]; onOpen
 function SkeletonLine({ seed }: { seed: number }) {
   return (
     <li className="store-item">
-      <Skeleton shape="block" width={44} height={44} className="store-skeleton__mark" />
+      <Skeleton shape="block" width={36} height={36} className="store-skeleton__mark" />
       <span className="store-item__text">
         <Skeleton width={[140, 180, 120][seed % 3]} height={14} />
         <Skeleton width={[260, 200, 300][seed % 3]} height={10} />
@@ -423,7 +423,7 @@ export function StoreRows({ entries, onOpen }: { entries: CatalogEntry[]; onOpen
             }
             onClick={() => onOpen(e)}
           >
-            {e.icon("lg")}
+            {e.icon("md")}
             <span className="store-item__text">
               <b className="ac-captop">{e.name}</b>
               <small>{e.description}</small>

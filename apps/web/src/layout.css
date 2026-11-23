@@ -15500,7 +15500,7 @@ html:not([data-pointer]) .store-open:focus-visible {
   display: flex;
   align-items: center;
   gap: 14px;
-  min-height: 72px;
+  min-height: 64px;
   min-width: 0;
   border-bottom: 1px solid var(--line);
 }
@@ -15513,10 +15513,12 @@ html:not([data-pointer]) .store-open:focus-visible {
   flex: 1;
   min-width: 0;
   display: flex;
-  /* The name's capitals start at the mark's top (`.ac-captop` on the name), as a chat name starts at its face. */
+  /* The name's capitals start at the mark's top (`.ac-captop` on the name), as a chat name starts at its face; the pair
+     sits in the middle of the line, as the state or the button at its end does. */
   align-items: flex-start;
   gap: 14px;
-  align-self: stretch;
+  align-self: center;
+  padding-block: 14px;
 }
 .store-item__open:disabled {
   cursor: default;
